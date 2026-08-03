@@ -85,4 +85,21 @@ Evaluate the application's performance, responsiveness, stability, and reliabili
 
 ## 8. Risks
 
-(To be completed.)
+- Voice recognition performance may degrade in noisy environments.
+- Extended application runtime may affect microphone reliability.
+- Application responsiveness may decrease during prolonged use or repeated voice recognition sessions.
+- Performance optimization has not yet been completed and may affect the user experience.
+
+---
+
+## 9. Future Testing
+
+The following testing activities are planned prior to production release:
+
+- Performance testing in a simulated crowded bar environment.
+- Long-duration microphone stability testing.
+- Voice recognition accuracy under background music and conversation.
+- Extended application runtime testing.
+- Battery consumption testing.
+- Memory usage monitoring.
+- Stress testing through repeated voice recognition sessions.
