@@ -31,12 +31,26 @@ The objective of this test plan is to verify that BarAssist functions as intende
 
 ## 3. Test Types
 
-- Functional Testing
-- Regression Testing
-- Exploratory Testing
-- Usability Testing
-- Compatibility Testing
-- Negative Testing
+### Functional Testing
+Verify that application features behave according to the documented requirements.
+
+### Regression Testing
+Verify that previously working functionality continues to operate after changes or bug fixes.
+
+### Exploratory Testing
+Explore the application without predefined test cases to identify unexpected defects.
+
+### Usability Testing
+Evaluate whether the application is intuitive and easy to use.
+
+### Compatibility Testing
+Verify the application functions correctly across supported iOS devices and versions.
+
+### Negative Testing
+Verify the application handles invalid inputs and unexpected user actions gracefully.
+
+### Non-Functional Testing (Planned)
+Evaluate the application's performance, responsiveness, stability, and reliability under realistic operating conditions. This testing will be performed as the application approaches production readiness.
 
 ---
 
