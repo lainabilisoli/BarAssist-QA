@@ -166,18 +166,49 @@ The user shall be able to navigate back to the previous screen from the Instruct
 
 ---
 
-### FA-09 Contact & Support
-Screens:
+### FA-009 Contact & Support
+
+**Screens:**
 - Contact & Support
 
-Description:
-Provides methods for contacting support or submitting feedback.
+**Description:**
+Provides users with a simple way to contact the BarAssist team.
+
+#### Functional Requirements
+
+**FR-009.001**  
+The application shall display the BarAssist support email address.
+
+**FR-009.002**  
+The application shall open the user's default email application when the support email address is selected.
+
+**FR-009.003**  
+The user shall be able to navigate back to the previous screen.
 
 ---
 
-### FA-010 Navigation
-Screens:
-- Navigation Drawer
+### FA-010 Navigation Drawer
 
-Description:
-Allows users to navigate throughout the application using the navigation drawer.
+**Screens:**
+- Listening Screen
+- Recipe Screen
+
+**Description:**
+Provides users with quick access to the application's primary screens from anywhere within the main application workflow.
+
+#### Functional Requirements
+
+**FR-010.001**  
+The application shall provide access to the Navigation Drawer from both the Listening screen and the Recipe screen.
+
+**FR-010.002**  
+The application shall display navigation options for Manual Search, Instructions, Account, Premium, and Contact & Support.
+
+**FR-010.003**  
+The application shall navigate to the selected screen when a navigation option is selected.
+
+**FR-010.004**  
+The user shall be able to close the Navigation Drawer without selecting a navigation option.
+
+**FR-010.005**  
+The application shall preserve the current application state when opening and closing the Navigation Drawer.
